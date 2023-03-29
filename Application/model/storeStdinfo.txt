@@ -1,0 +1,5 @@
+20-76876-1~AKM RAHMAN MAZUMDER~34~120~Bachelor of Science in Computer Science & Engineering~FACULTY OF SCIENCE & TECHNOLOGY~545/2, Banani~CTG~2001-06-05~Male~India~Islam~AB+~2021-06-08~
+45-2323-1~Abdur Rahman~34~118~Bachelor of Science in Computer Science & Engineering~FACULTY OF SCIENCE & TECHNOLOGY~545/2, Banani~CTG~2001-06-05~Male~India~Islam~AB+~2021-06-08~
+35-34353-1~hossain anas~34~130~Bachelor of Science in Computer Science & Engineering~FACULTY OF SCIENCE & TECHNOLOGY~545/2, Banani~CTG~2001-06-05~Male~India~Islam~AB+~2021-06-08~
+278-435345-1~Sazzad Hossain Tasnim~34~115~Bachelor of Science in Computer Science & Engineering~FACULTY OF SCIENCE & TECHNOLOGY~545/2, Banani~CTG~2001-06-05~Male~India~Islam~AB+~2021-06-08~
+20-42642-1~Sakib Hossain~3.4~118~Bachelor of Science in Electrical Engineering~FACULTY OF BUSINESS ADMINISTRATION~Gulshan 01~Dhaka~2001-06-12~Male~India~Islam~A+~2022-06-29~

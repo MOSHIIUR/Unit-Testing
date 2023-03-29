@@ -1,0 +1,526 @@
+/*--------------------------- font----------------------*/
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/Inter-Regular.woff2?v=3.19') format('woff2'),
+    url('fonts/Inter-Regular.woff?v=3.19') format('woff');
+}
+
+* {
+    font-family: "Inter";
+}
+
+body{
+	background:url(../image/ptrn.png) repeat fixed;
+    
+}
+
+
+/*===================================div======================*/
+
+div{
+    margin: auto;
+    text-align: left;
+}
+
+div.center{
+    display: flex;
+    justify-content: center;
+}
+
+div.heading{
+    width: 100%;
+    height: 10%;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+div.frame {
+	width:1000px;
+	margin:0 auto;
+	background:#497FAF;
+}
+
+div.background {
+
+	background:#ffffff;
+  width: 1000px;
+  
+}
+
+div.min-height{
+  min-height:500px;
+
+}
+
+
+/*--------------------------------------------------image ----------------------------------*/
+img{
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        border: 1px solid black;      
+}
+
+img.circle{
+    
+    border-radius: 50%;
+
+}
+
+
+/* div.emsg{
+    color: tomato;
+    font-size: 10px;
+}
+
+div.smsg{
+    color: rgb(86, 255, 71);
+    font-size: 20px;
+} */
+
+
+/*----------------------table------------------------*/
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  table.registration{
+    border:none;
+    font:bold;
+  }
+  table.registration th, td{
+    
+    padding: 15px;
+    border: none;
+    
+  }
+
+
+  table.list{
+    border:none;
+    font:bold;
+    width: 100%;
+  }
+  table.list th, td{
+    
+    padding: 15px;
+    border: none;
+    text-align: left;
+    
+  }
+  
+  table.list th{
+    
+    padding: 15px;
+    text-align: center;
+    background-color:#75ce9f;
+    color: white;
+    
+  }
+  
+
+  table.profile{
+    border: none;
+    width: 100%;
+  }
+
+  table.profile th, td{
+    
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;    
+  }
+
+  #text-align{
+    text-align: left;
+  }
+
+
+
+table.home {
+    border: none;
+    border-bottom: 1px solid #ddd;    
+    margin: 0 auto;
+    
+}
+
+table.home tr, th, td{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+table.home img{
+
+  border: none;
+  width: 100px;
+  height: 100px;
+
+}
+
+
+
+
+
+
+
+/*------------------- header------------------------*/
+.header{
+    width:1000px;
+    margin:0 auto;
+    height: 10%;
+    display: flex;
+    justify-content: baseline;
+    background:#04aa6d;
+  
+}
+
+.header a {
+  color: #ffffff;
+}
+
+/*------------------- footer------------------------*/
+/* .footer{
+    position: relative;
+    top: 130px;
+    width: 80%;
+    margin: auto;
+    height: 10%;
+    border: blue solid;
+    border-radius: 5px;
+    color: aqua;
+
+    display: flex;
+    justify-content: center;
+
+}
+ */
+
+
+ .footer {
+  position: relative ; 
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #222222;
+  height: 10%;
+  width: 1000px;
+  text-align: center;
+  color: grey;
+}
+
+/*------------------------- hyper text ---------------------------*/
+a{
+  
+  color: #04aa6d;
+      text-decoration: none;
+    margin: auto;
+    font-weight: bold;
+}
+
+a:hover{
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+
+input[type=text], input[type=email], input[type=password], select, input[type=date], input[type=number]{
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 3px;
+  }
+  
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=submit]
+{
+  
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: #04aa6d;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: .9;
+}
+
+input[type=submit].registration
+{
+  
+  background: rgb(220,20,60);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
+input[type=submit].registration:hover
+{
+  
+    background-color: green
+}
+
+input[type=submit].login
+{
+  
+  background: #497FAF;
+  width: 100%;
+  color: white;
+ 
+}
+
+input[type=submit].login:hover
+{
+  
+    opacity: .9;
+}
+
+input[type=submit].cancel
+{
+  
+  background: white;
+  border: 1px solid grey;
+  color: black;
+ 
+}
+
+input[type=submit].cancel:hover
+{
+  
+    opacity: .9;
+}
+
+input[type=submit].width_50
+{
+  
+  background: #497FAF;
+  width: 40%;
+  color: white;
+ 
+}
+
+input[type=submit].width_50:hover
+{
+  
+    opacity: .9;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: #04aa6d;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+/*--------------------------------- button ---------------------------------*/
+
+
+
+
+
+/* ------------------------- form style ------------------ */
+/* .form-container {
+    font-family: Georgia, serif;
+
+    margin: auto;   
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: skyblue;
+    
+}
+
+.form-container #login-form {
+    min-height: 400px;
+    font-size: 16px;
+
+}
+
+.form-container #register-form {
+    min-height: 700px;
+    font-size: 16px;
+
+} */
+/*----------------------------------------------- main form ----------------------------*/
+
+form.search{
+    max-width: 630px;
+    padding: 10px;
+    margin: auto;
+}
+
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.search button {
+  padding: 10px;
+  width: 50px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+form.search button, #search{
+    padding: 10px;
+  width: 80px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+
+form.registration{
+    width: 30%;
+    padding: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+
+        /*centered elements*/
+        position: absolute;
+        left: 30%;
+    
+    
+}
+
+form.login{
+    width: 20%;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+ 
+    /*centered elements*/
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+
+    
+}
+
+
+form.recover{
+    width: 20%;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+ 
+    /*centered elements*/
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+
+}
+
+form.normal{
+    width: 40%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+form.list{
+    width: 50%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+
+
+}
+
+#center
+{
+    /*centered elements*/
+    position: absolute;
+    left: 30%;
+
+}
+
+
+
+
+/*--------------------error message-----------p-----------------------*/
+p.emsg{
+    color: tomato;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+p.smsg{
+    color: rgb(86, 255, 71);
+    font-size: 12px;
+    font-weight: bold;
+
+} 
+
+
+
+/*=============================== header ===============================*/
+
+#center{
+    text-align: center;
+}
+
+

@@ -1,0 +1,3 @@
+CSC1021~BSc in COE~Programing Language One[C++]~3~CSC 1101 Introduction to Computer Studies + Cisco~This course is designed for the freshers (1st semester students). It is an introductory course on computer studies. Also, students will understand the key differences between university education and Higher Secondary level along with the full four years CSE program structure. Fundamental topics of computing such as number systems, hardware and software systems, flow chart design, aspects of the different operating systems, using Office-365 tools, etc.
+CSC1101~BSc in COE~INTRODUCTION TO PROGRAMMING LANGUAGE~1~NILL~-
+CS399~BSc in IPE~CHEMISTRY~3~NULL~-

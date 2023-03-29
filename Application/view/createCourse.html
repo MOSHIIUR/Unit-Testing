@@ -1,0 +1,91 @@
+<center>
+    <h1>Create Course</h1><hr>
+    
+    <form action="course.php" method="post" enctype="">
+    
+    <table>
+    <!--    code -->
+    <tr>
+            <td>Course Code</td>
+            <td><input type="text" name="code" value=""></td>
+            
+        </tr>
+        
+    <!--    curriculum    -->
+    <tr>
+        <td>Curriculum</td>
+        <td>
+            <select name="curriculum">
+                <option value=""> </option>	
+                <option value="BSc in COE">BSc in COE</option>	
+                <option value="BSc in EEE">BSc in EEE</option>	
+                <option value="BSc in IPE">BSc in IPE</option>
+            </select>
+        </td>
+    </tr>
+        <!--    hr -->
+        <tr>
+            <td colspan="2"><hr></td>
+        </tr>
+        
+    <!--    course title -->
+        <tr>
+            <td>Course Name</td>
+            <td><input type="text" name="title" value=""></td>
+        </tr>
+
+    <!--    hr -->
+    <tr>
+        <td colspan="2"><hr></td>
+    </tr>
+
+ <!--    hour  -->
+            <tr>
+                <td>Credit Hour</td>
+                <td><input type="number" name="hour" value=""></td>
+            </tr>
+        <!--    hr -->
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+
+
+
+        <!--    hr -->
+    <tr>
+        <td colspan="2"><hr></td>
+    </tr>
+
+    <!--    prerequisite  -->
+        <tr>
+            <td>Pre-Requisite</td>
+            <td><input type="text" name="prerequisite" value=""></td>
+        </tr>
+        
+    <!--    hr -->
+    <tr>
+        <td colspan="2"><hr></td>
+    </tr>
+
+    <!--    description  -->
+        <tr>
+            <td>Course description</td>
+            <td><textarea name="description" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+
+    
+    <!--    break    -->
+    <tr><td><br></td></tr>
+    <tr><td><br></td></tr>
+
+
+    </table>
+
+    <!--    submit/add    -->
+    <input type="submit" name="add" value="Add Course">
+    <h3>Back to the<a href=course.php> List</a>?</h3>
+    <h3>Back to<a href=home.php> Home</a>?</h3>
+
+
+    </form>
+</center>

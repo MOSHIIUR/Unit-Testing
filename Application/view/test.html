@@ -1,0 +1,28 @@
+<script src='../controller/validation.js'></script>
+<script src='../controller/emsg.js'></script>
+
+<link rel="stylesheet" href="../css/style.css">
+
+<div class="center">
+    
+        
+    <!--    dept    -->
+    <div>
+        <label>Department</label>
+        <label>
+            <select id="dept" onchange="checkDept()">
+                <option></option>	
+                <option value="FACULTY OF SCIENCE & TECHNOLOGY">FACULTY OF SCIENCE & TECHNOLOGY</option>	
+                <option value="FACULTY OF ENGINEERING">FACULTY OF ENGINEERING</option>	
+                <option value="FACULTY OF BUSINESS ADMINISTRATION">FACULTY OF BUSINESS ADMINISTRATION</option>	
+            </select>
+        </label>
+        <p class="emsg" id="emsg_dept"></p>
+        </div>
+
+
+        <td colspan="2"><input type="submit" class='registration' value="ADD FACULTY" onclick="add2()">
+
+
+
+</div>
